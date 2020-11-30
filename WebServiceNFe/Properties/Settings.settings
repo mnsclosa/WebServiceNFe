@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ServiceNFe.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Certificado" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ServiceNFe_Homologacao_ConsultaCadastroContribuinte4_CadConsultaCadastro4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/cadconsultacadastro4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_ConsultaCadastroContribuinte4_CadConsultaCadastro4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://nfe.fazenda.sp.gov.br/ws/cadconsultacadastro4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_Inutilizacao4_NFeInutilizacao4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://nfe.fazenda.sp.gov.br/ws/nfeinutilizacao4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_Homologacao_Inutilizacao4_NFeInutilizacao4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nfeinutilizacao4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_Homologacao_NFeStatusServico4_NFeStatusServico4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nfestatusservico4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_NFeStatusServico4_NFeStatusServico4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://nfe.fazenda.sp.gov.br/ws/nfestatusservico4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_NFeConsultaProtocolo4_NFeConsultaProtocolo4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://nfe.fazenda.sp.gov.br/ws/nfeconsultaprotocolo4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_Homologacao_NFeConsultaProtocolo4_NFeConsultaProtocolo4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nfeconsultaprotocolo4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_Homologacao_RecepcaoEvento4_NFeRecepcaoEvento4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nferecepcaoevento4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_RecepcaoEvento4_NFeRecepcaoEvento4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://nfe.fazenda.sp.gov.br/ws/nferecepcaoevento4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_Homologacao_NFeAutorizacao4_NFeAutorizacao4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nfeautorizacao4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_NFeAutorizacao4_NFeAutorizacao4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://nfe.fazenda.sp.gov.br/ws/nfeautorizacao4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_NFeRetAutorizacao4_NFeRetAutorizacao4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://nfe.fazenda.sp.gov.br/ws/nferetautorizacao4.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceNFe_Homologacao_NFeRetAutorizacao4_NFeRetAutorizacao4" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nferetautorizacao4.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

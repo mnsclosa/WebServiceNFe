@@ -1,0 +1,168 @@
+# NOTE: Requires **VS2019 16.3** or later
+
+# Regras para WebServiceNFe
+# Description: Regras de análise de código WebServiceNFe.csproj.
+
+# Code files
+[*.{cs,vb}]
+
+
+dotnet_diagnostic.CA1001.severity = none
+
+dotnet_diagnostic.CA1009.severity = none
+
+dotnet_diagnostic.CA1016.severity = none
+
+dotnet_diagnostic.CA1033.severity = none
+
+dotnet_diagnostic.CA1049.severity = none
+
+dotnet_diagnostic.CA1060.severity = none
+
+dotnet_diagnostic.CA1061.severity = none
+
+dotnet_diagnostic.CA1062.severity = none
+
+dotnet_diagnostic.CA1063.severity = none
+
+dotnet_diagnostic.CA1065.severity = none
+
+dotnet_diagnostic.CA1301.severity = none
+
+dotnet_diagnostic.CA1304.severity = none
+
+dotnet_diagnostic.CA1400.severity = none
+
+dotnet_diagnostic.CA1401.severity = none
+
+dotnet_diagnostic.CA1403.severity = none
+
+dotnet_diagnostic.CA1404.severity = none
+
+dotnet_diagnostic.CA1405.severity = none
+
+dotnet_diagnostic.CA1410.severity = none
+
+dotnet_diagnostic.CA1415.severity = none
+
+dotnet_diagnostic.CA1707.severity = none
+
+dotnet_diagnostic.CA1717.severity = none
+
+dotnet_diagnostic.CA1724.severity = none
+
+dotnet_diagnostic.CA1801.severity = none
+
+dotnet_diagnostic.CA1821.severity = none
+
+dotnet_diagnostic.CA1822.severity = none
+
+dotnet_diagnostic.CA1825.severity = none
+
+dotnet_diagnostic.CA1900.severity = none
+
+dotnet_diagnostic.CA1901.severity = none
+
+dotnet_diagnostic.CA2000.severity = none
+
+dotnet_diagnostic.CA2002.severity = none
+
+dotnet_diagnostic.CA2100.severity = none
+
+dotnet_diagnostic.CA2101.severity = none
+
+dotnet_diagnostic.CA2108.severity = none
+
+dotnet_diagnostic.CA2111.severity = none
+
+dotnet_diagnostic.CA2112.severity = none
+
+dotnet_diagnostic.CA2114.severity = none
+
+dotnet_diagnostic.CA2116.severity = none
+
+dotnet_diagnostic.CA2117.severity = none
+
+dotnet_diagnostic.CA2122.severity = none
+
+dotnet_diagnostic.CA2123.severity = none
+
+dotnet_diagnostic.CA2124.severity = none
+
+dotnet_diagnostic.CA2126.severity = none
+
+dotnet_diagnostic.CA2131.severity = none
+
+dotnet_diagnostic.CA2132.severity = none
+
+dotnet_diagnostic.CA2133.severity = none
+
+dotnet_diagnostic.CA2134.severity = none
+
+dotnet_diagnostic.CA2137.severity = none
+
+dotnet_diagnostic.CA2138.severity = none
+
+dotnet_diagnostic.CA2140.severity = none
+
+dotnet_diagnostic.CA2141.severity = none
+
+dotnet_diagnostic.CA2146.severity = none
+
+dotnet_diagnostic.CA2147.severity = none
+
+dotnet_diagnostic.CA2149.severity = none
+
+dotnet_diagnostic.CA2200.severity = none
+
+dotnet_diagnostic.CA2202.severity = none
+
+dotnet_diagnostic.CA2207.severity = none
+
+dotnet_diagnostic.CA2208.severity = none
+
+dotnet_diagnostic.CA2212.severity = none
+
+dotnet_diagnostic.CA2213.severity = none
+
+dotnet_diagnostic.CA2214.severity = none
+
+dotnet_diagnostic.CA2216.severity = none
+
+dotnet_diagnostic.CA2220.severity = none
+
+dotnet_diagnostic.CA2229.severity = none
+
+dotnet_diagnostic.CA2231.severity = none
+
+dotnet_diagnostic.CA2232.severity = none
+
+dotnet_diagnostic.CA2235.severity = none
+
+dotnet_diagnostic.CA2236.severity = none
+
+dotnet_diagnostic.CA2237.severity = none
+
+dotnet_diagnostic.CA2238.severity = none
+
+dotnet_diagnostic.CA2240.severity = none
+
+dotnet_diagnostic.CA2241.severity = none
+
+dotnet_diagnostic.CA2242.severity = none
+
+dotnet_diagnostic.CA3075.severity = none
+
+dotnet_diagnostic.CA5369.severity = none
+
+dotnet_diagnostic.IDE0031.severity = none
+
+dotnet_diagnostic.IDE0051.severity = none
+
+dotnet_diagnostic.IDE0059.severity = none
+
+dotnet_diagnostic.IDE0060.severity = none
+
+dotnet_diagnostic.IDE0063.severity = none
+
+dotnet_diagnostic.IDE1006.severity = none
