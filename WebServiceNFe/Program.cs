@@ -24,11 +24,11 @@ namespace ServiceNFe
 		static void AutorizaNFe( ConectaWebServiceNFe cws )
 		{
 			/* cnpj ou cpf da NFe correspondente a NFe, lembrando que deverá corresponder ao do certificado digital */
-			string cnpj = "07349148000185";
+			string cnpj = null;
 			string cpf = null;
-			string ie = "117052320118";
-			string im = "34020004";
-			string numeroNFe = "625";
+			string ie = null;
+			string im = null;
+			string numeroNFe = null;
 
 			Ide ide = new Ide( "Venda","55","2",numeroNFe,TipoOperacao.Saida,IdentificadorDestino.Operacao_Interna,"3550308",
 								TipoDanfe.Sem_geracao_de_DANFE,TipoEmissao.Emissao_Normal,FinalidadeEmissaoNFe.NFe_Normal,OperacaoConsumidor.Consumidor_Final,
@@ -91,12 +91,12 @@ namespace ServiceNFe
 		static void CancelamentodeNFe( ConectaWebServiceNFe cws )
 		{
 			/* cnpj ou cpf da NFe correspondente a NFe, lembrando que deverá corresponder ao do certificado digital */
-			string cnpj = "07349148000185";
+			string cnpj = null;
 			string cpf = null;
 
 			/* chave e numero do protocolo que terá o cancelamento da NFe, ambos obrigatórios */
-			string chaveNFe = "35201007349148000185550020000006051605000000";
-			string numeroprotocolo = "135200008908654";
+			string chaveNFe = null;
+			string numeroprotocolo = null;
 
 			Evento Evento = new Evento( "1.00",new InfEvento( cnpj,cpf,chaveNFe,
 												 DateTime.Now.ToString( new CultureInfo( "pt-BR" ) ),"110111","1.00",
@@ -108,11 +108,11 @@ namespace ServiceNFe
 		static void CartadeCorrecao( ConectaWebServiceNFe cws )
 		{
 			/* cnpj ou cpf da NFe que se emitirá a carta de correção, lembrando que deverá corresponder ao do certificado digital */
-			string cnpj = "07349148000185";
+			string cnpj = null;
 			string cpf = null;
 
 			/* chave que terá a carta de correção, campo obrigatório */
-			string chaveNFe = "35201007349148000185550020000006041604000009";
+			string chaveNFe = null;
 
 			Evento Evento = new Evento( "1.00",new InfEvento( cnpj,cpf,chaveNFe,
 												 DateTime.Now.ToString( new CultureInfo( "pt-BR" )),"110110","7","1.00",
@@ -124,7 +124,7 @@ namespace ServiceNFe
 		static void ConsultaProtocolo( ConectaWebServiceNFe cws )
 		{
 			/* Chave que será utilizada para consultar o protocolo de autorização da NFe */
-			string chaveNFe = "35201007349148000185550020000006051605000000";
+			string chaveNFe = null;
 
 			ConsSitNFe consSitNFe = new ConsSitNFe( "4.00",chaveNFe );
 			RetConsSitNFe retConsSitNFe = cws.ConsultaProtocolo( consSitNFe,"consSitNFe_v4.00.xsd" );
@@ -132,7 +132,7 @@ namespace ServiceNFe
 		static void InutilizaNumeracao( ConectaWebServiceNFe cws )
 		{
 			/* cnpj que será utilizado para inutilizar uma númeração da NFe, este deverá corresponder ao cnpj do certificado digital */
-			string cnpj = "07349148000185";
+			string cnpj = null;
 
 			InutNFe inutNFe = new InutNFe( new InfInut( "20",cnpj,"55",3,6,6,"Inutilização para teste" ),"4.00" );
 			RetInutNFe retInutNFe = cws.InutilizaNumeracao( inutNFe,"inutNFe_v4.00.xsd" );
@@ -148,7 +148,7 @@ namespace ServiceNFe
 		{
 			/* inserir o cpf ou cnpj ou a ie a ser consultados somente um deles poderá ser utilizado, dependendo do estado não tem consulta por cpf */
 			string cpf = null;
-			string cnpj = "07349148000185";
+			string cnpj = null;
 			string ie = null;
 
 			RetConsCad retConsCad = cws.ConsultaCadastro( new ConsCad( new InfCons( cpf,cnpj,ie ),"2.00" ) );
